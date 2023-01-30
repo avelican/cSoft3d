@@ -22,8 +22,8 @@ MinGW probably works too, but didn't try yet.\
 
 ## TODO
 
-[ ] Clean things up a bit (sorry)
-[ ] Update SDL version
-[ ] Linux build
-[ ] MinGW build
-[ ] Make the monkey not be upside down
+- [ ] Clean things up a bit (sorry)
+- [ ] Update SDL version
+- [ ] Linux build
+- [ ] MinGW build
+- [ ] Make the monkey not be upside down
