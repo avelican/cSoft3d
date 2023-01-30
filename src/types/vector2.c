@@ -8,4 +8,6 @@ typedef struct Vector2 {
 	r32 y;
 } Vector2;
 
+// typedef Vector2 v2;
+
 #endif /* VECTOR2_C */

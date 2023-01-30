@@ -10,7 +10,7 @@ typedef struct VecVertex {
 	Vertex * data;
 } VecVertex;
 
-#define STARTING_SIZE 1024
+#define STARTING_SIZE 1024000
 
 VecVertex MakeVecVertex() {
 	VecVertex vec;

@@ -1,7 +1,7 @@
 #ifndef READTEXTFILE_C
 #define READTEXTFILE_C
 
-// #include <stdio.h>
+#include <stdio.h>
 
 long ReadTextFile(char *fileName, char **_string) {
 	int err = 0;

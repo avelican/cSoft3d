@@ -19,7 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\unity.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\types\all_types.c" />
+    <ClCompile Include="src\types\line.c" />
+    <ClCompile Include="src\types\model.c" />
+    <ClCompile Include="src\types\numbers.c" />
+    <ClCompile Include="src\types\string.c" />
+    <ClCompile Include="src\types\vector2.c" />
+    <ClCompile Include="src\types\vector3.c" />
+    <ClCompile Include="src\types\vec_abstract.c" />
+    <ClCompile Include="src\types\vec_vertex.c" />
+    <ClCompile Include="src\types\vertex.c" />
+    <ClCompile Include="src\util\readTextFile.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

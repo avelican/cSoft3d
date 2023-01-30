@@ -1,0 +1,1 @@
+call C:\Users\MSI\dev\emscripten\emsdk\emsdk_env.bat

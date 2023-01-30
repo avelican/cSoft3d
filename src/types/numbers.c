@@ -1,7 +1,7 @@
-// #include <stdint.h>
-// #include <stddef.h> // pointer types
-// #include <limits.h>
-// #include <float.h>
+#include <stdint.h>
+#include <stddef.h> // pointer types
+#include <limits.h>
+#include <float.h>
 
 typedef int8_t int8;
 typedef int16_t int16;

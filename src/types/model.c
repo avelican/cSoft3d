@@ -1,6 +1,7 @@
 #ifndef MODEL_C
 #define MODEL_C
-// #include <stdlib.h> // EXIT_FAILURE
+
+#include <stdlib.h> // EXIT_FAILURE
 #include "vertex.c"
 #include "vec_vertex.c"
 
@@ -37,7 +38,7 @@ Model LoadModel(char * filename) {
 		if ( fgets (line, 256, f) == NULL ) // EOF
 			break;
 
-		puts(line);
+		// puts(line);
 
 		// parse line
 		char cmd[256];
@@ -55,6 +56,7 @@ Model LoadModel(char * filename) {
 	}
 
 	fclose(f);
+	return model;
 }
 
 // Model ParseModel(String);
@@ -100,7 +102,7 @@ Model LoadModel(char * filename) {
 
 void PrintModel(Model model) {
 	for(int i = 0; i < model.vertices.count; i++) {
-		printf(	"v %.2f %.2f %.2f", 
+		printf(	"v %.2f %.2f %.2f\n", 
 				model.vertices.data[i].x,
 				model.vertices.data[i].y,
 				model.vertices.data[i].z );
