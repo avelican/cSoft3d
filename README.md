@@ -24,6 +24,11 @@ MinGW probably works too, but didn't try yet.\
 
 - [ ] Clean things up a bit (sorry)
 - [ ] Update SDL version
+
+- [ ] Wireframe!
+- [ ] Flat shading!
+- [ ] Textures!
+
 - [ ] Linux build
 - [ ] MinGW build
 - [ ] Make the monkey not be upside down
